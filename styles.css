@@ -1,0 +1,106 @@
+:root {
+  --primary-color: #39bfbd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+nav {
+  margin-top: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--primary-color);
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.09);
+}
+
+nav .logo {
+  font-size: 40px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+ul li a:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+  transition: all ease-in 0.2s;
+}
+
+a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: var(--primary-color);
+}
+
+.hey {
+  font-weight: 600;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+#content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+#content img {
+  margin-top: 4%;
+  width: 500px;
+  border-radius: 10%;
+  border: 4px solid var(--primary-color);
+}
+
+.main-txt {
+  margin-left: 6%;
+}
+
+.main-txt h2 {
+  font-size: 60px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.main-txt p {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.main-txt .resume-btn {
+  padding: 15px 15px;
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 7px;
+  margin-top: 40px;
+  font-size: 18px;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.main-txt .resume-btn:hover {
+  opacity: 0.9;
+  transition: all ease-in 0.2s;
+}
